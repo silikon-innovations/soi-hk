@@ -1,0 +1,98 @@
+body {
+    background-color: #E4E0DF;
+}
+.header {
+    margin-left: 15px;
+    margin-right:15px;
+    margin-top: 5px;
+    border-radius: 10px;
+    display: flex;
+    background-color: black;
+}
+.heading {
+    color: white;
+    margin-top: 10px;
+    font-size: 45px;
+}
+.img {
+    margin-left: 15px;
+    width: 200px;
+    height: 80px;
+}
+.logo, .empty-div {
+    flex: 1;
+}
+.flexbox-container {
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: space-between;
+}
+.info {
+    margin-top: 7%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.info-p {
+    width: 50%;
+}
+.info-h-main {
+    font-size: 35px
+}
+.info-p-main {
+    font-size: 25px;
+}
+.info-img {
+    margin-right: 10px;
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+}
+.form {
+    margin-top: 5%;
+    margin-bottom: 5%
+}
+.mentors {
+    background-color: darkgray;
+    padding-top: 30px;
+}
+.flex-container {
+    margin-top: 7%;
+    display: flex;
+}
+.cards {
+    justify-content: space-around;
+}
+.card {
+    margin-bottom: 20px;
+}
+.pic {
+    border-radius: 60px;
+}
+.name {
+    margin-top: 10px;
+    font-size: 25px;
+}
+.about {
+    font-size: 15px;
+}
+@media (max-width:600px) {
+    .img {
+        width: 150px;
+        height: 55px;
+    }
+    .heading {
+        font-size: 35px;
+    }
+    .flexbox-container {
+        flex-direction: column;
+    }
+    .info-p {
+        width: 100%;
+    }
+    .info-p-main, .info-h-main {
+        text-align: center;
+    }
+    .flex-container {
+        flex-direction: column;
+    }
+}
