@@ -13,11 +13,13 @@ body {
     color: white;
     margin-top: 10px;
     font-size: 45px;
+    cursor: pointer;
 }
 .img {
     margin-left: 15px;
     width: 200px;
     height: 80px;
+    cursor: pointer;
 }
 .logo, .empty-div {
     flex: 1;
