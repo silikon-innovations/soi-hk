@@ -41,39 +41,55 @@ body {
 .info-p-main {
     font-size: 25px;
 }
+.register {
+    background-color: darkgray;
+    font-size: 30px;
+    color: #333333; 
+}
+.banner {
+    padding-left: 10px;
+}
 .info-img {
     margin-right: 10px;
     border-radius: 5px;
-    width: 100%;
-    height: auto;
+    /* width: auto;
+    height: auto; */
 }
 .form {
     margin-top: 5%;
     margin-bottom: 5%
 }
 .mentors {
+    margin-top: 5%;
     background-color: darkgray;
     padding-top: 30px;
 }
 .flex-container {
     margin-top: 7%;
     display: flex;
+    flex-direction: column;
+}
+.flexb-container {
+    display: flex;
+    justify-content: center;
 }
 .cards {
+    margin-left: 30px; 
     justify-content: space-around;
 }
 .card {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .pic {
-    border-radius: 60px;
+    border-radius: 125px;
 }
 .name {
     margin-top: 10px;
-    font-size: 25px;
+    font-size: 45px;
 }
-.about {
-    font-size: 15px;
+.about, .email {
+    padding-left: 10px; 
+    font-size: 30px;
 }
 @media (max-width:600px) {
     .img {
@@ -86,6 +102,10 @@ body {
     .flexbox-container {
         flex-direction: column;
     }
+    .info-img {
+        width: 100%;
+        height: auto;
+    }
     .info-p {
         width: 100%;
     }
@@ -94,5 +114,13 @@ body {
     }
     .flex-container {
         flex-direction: column;
+    }
+    .pic {
+        width: 150px;
+        height: 150px;
+        border-radius: 75px;
+    }
+    .about, .email {
+        font-size: 20px;
     }
 }
