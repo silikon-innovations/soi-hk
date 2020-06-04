@@ -82,17 +82,19 @@ body {
     margin-bottom: 40px;
 }
 .pic {
+    width: 250px;
+    height: 250px;
     border-radius: 125px;
 }
 .name {
     margin-top: 10px;
-    font-size: 45px;
+    font-size: 35px;
 }
 .about, .email {
     padding-left: 10px; 
-    font-size: 30px;
+    font-size: 20px;
 }
-@media (max-width:600px) {
+@media (max-width:1200px) {
     .img {
         width: 150px;
         height: 55px;
@@ -116,6 +118,9 @@ body {
     .flex-container {
         flex-direction: column;
     }
+    .flexb-container {
+        flex-direction: column;
+    }
     .pic {
         width: 150px;
         height: 150px;
@@ -124,4 +129,7 @@ body {
     .about, .email {
         font-size: 20px;
     }
+}
+.image-container {
+    text-align: center;
 }
