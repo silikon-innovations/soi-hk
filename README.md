@@ -1,1 +1,1 @@
-This is the repositiory for the Silikon Innovations's Hackathon called Summer Of Innovations 2020 (SOI 2020)
+This is the repositiory for the Silikon Innovations's Hackathon called Summer Of Innovations 2020
